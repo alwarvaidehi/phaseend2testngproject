@@ -1,0 +1,18 @@
+<suite name="tessuite4" verbose="1" parallel="tests" >
+
+<test name ="starHealth001">
+	<parameter name="username"  value=" krishna"/>
+	<parameter name="mobile"  value="5273628392"/>
+	<parameter name="email"  value="vana@gmail.com"/>
+	<classes>
+		<class name="project_starHealth.StarHealthPage"></class>
+	</classes>
+</test>	
+
+<test name ="starHealth002">
+	
+	<classes>
+		<class name="project_starHealth.StarHealthpage2"></class>
+	</classes>
+</test>	
+</suite>

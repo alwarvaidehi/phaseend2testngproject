@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-24T11:55:46 IST" name="tessuite4" finished-at="2023-10-24T11:56:19 IST" duration-ms="33099">
+    <groups>
+    </groups>
+    <test started-at="2023-10-24T11:55:46 IST" name="starHealth002" finished-at="2023-10-24T11:55:54 IST" duration-ms="8061">
+      <class name="project_starHealth.StarHealthpage2">
+        <test-method signature="print_link()[pri:49, instance:project_starHealth.StarHealthpage2@d23e042]" started-at="2023-10-24T11:55:46 IST" name="print_link" finished-at="2023-10-24T11:55:54 IST" duration-ms="7900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print_link -->
+        <test-method signature="closebroswers()[pri:50, instance:project_starHealth.StarHealthpage2@d23e042]" started-at="2023-10-24T11:55:54 IST" name="closebroswers" finished-at="2023-10-24T11:55:54 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebroswers -->
+      </class> <!-- project_starHealth.StarHealthpage2 -->
+    </test> <!-- starHealth002 -->
+    <test started-at="2023-10-24T11:55:46 IST" name="starHealth001" finished-at="2023-10-24T11:56:19 IST" duration-ms="33099">
+      <class name="project_starHealth.StarHealthPage">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:project_starHealth.StarHealthPage@d554c5f]" started-at="2023-10-24T11:55:46 IST" name="OpenBrowser" finished-at="2023-10-24T11:55:54 IST" duration-ms="8098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="Validate_title()[pri:49, instance:project_starHealth.StarHealthPage@d554c5f]" started-at="2023-10-24T11:55:54 IST" name="Validate_title" finished-at="2023-10-24T11:55:54 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_title -->
+        <test-method signature="Test_Header_plan()[pri:50, instance:project_starHealth.StarHealthPage@d554c5f]" started-at="2023-10-24T11:55:54 IST" name="Test_Header_plan" finished-at="2023-10-24T11:56:01 IST" duration-ms="6472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Header_plan -->
+        <test-method signature="send_data(java.lang.String,java.lang.String,java.lang.String)[pri:51, instance:project_starHealth.StarHealthPage@d554c5f]" started-at="2023-10-24T11:56:01 IST" name="send_data" finished-at="2023-10-24T11:56:16 IST" duration-ms="14949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ krishna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5273628392]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vana@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_data -->
+        <test-method signature="twitter()[pri:52, instance:project_starHealth.StarHealthPage@d554c5f]" started-at="2023-10-24T11:56:16 IST" name="twitter" finished-at="2023-10-24T11:56:18 IST" duration-ms="2652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twitter -->
+        <test-method signature="closeBrowser()[pri:54, instance:project_starHealth.StarHealthPage@d554c5f]" started-at="2023-10-24T11:56:19 IST" name="closeBrowser" finished-at="2023-10-24T11:56:19 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- project_starHealth.StarHealthPage -->
+    </test> <!-- starHealth001 -->
+  </suite> <!-- tessuite4 -->
+</testng-results>
